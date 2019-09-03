@@ -4,8 +4,8 @@
 
 American sign alphabet detector using Deep Learning & Computer Vision
 
-**Introduction**
-The Sign2Alphabet project aims to help people to learn sign language alphabets so that they can easily communicate with people who cannot speak or listen. Computer Vision is used to detect the American sign language symbol for various alphabets and Convolutional Neural Network(CNN) model is used to train and classify the image data.  
+**Introduction:**
+The Sign2Alphabet project aims to help people to interpret sign language alphabets so that they can easily communicate with people who cannot speak or listen. Computer Vision is used to detect the American sign language symbol for various alphabets and Convolutional Neural Network(CNN) model is used to predict the predict the detected sign and result is printed on the live video frame.  
 
 **Steps to detect a sign:**
 >Creating Image Dataset:
