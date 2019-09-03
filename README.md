@@ -1,13 +1,11 @@
-# Sign2Alphabet
-
-**Version 1.0.0**
+# Sign2Alphabet  [![MIT License](https://img.shields.io/badge/LICENSE-MIT-green.svg)](https://github.com/khushwant18/sign2alphabel/blob/master/LICENSE)
 
 American sign alphabet detector using Deep Learning & Computer Vision
 
-**Introduction:**
+## Introduction:
 The Sign2Alphabet project aims to help people to interpret sign language alphabets so that they can easily communicate with people who cannot speak or listen. Computer Vision is used to detect the American sign language symbol for various alphabets and Convolutional Neural Network(CNN) model is used to predict the predict the detected sign and result is printed on the live video frame.  
 
-**Steps to detect a sign:**
+## Steps to detect a sign:
 >Creating Image Dataset:
 * Image dataset can be created by running create_image_dataset.py file and a character viz 'a' should be entered to prepare image data folder for that character.
 * As soon as 'd' is pressed on the keyboard, webcam will start clicking 786 images.
