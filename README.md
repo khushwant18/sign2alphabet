@@ -1,4 +1,5 @@
-# Sign2Alphabet  [![MIT License](https://img.shields.io/badge/LICENSE-MIT-green.svg)](https://github.com/khushwant18/sign2alphabel/blob/master/LICENSE)
+# Sign2Alphabet 
+[![MIT License](https://img.shields.io/badge/LICENSE-MIT-green.svg)](https://github.com/khushwant18/sign2alphabel/blob/master/LICENSE)
 
 American sign alphabet detector using Deep Learning & Computer Vision
 
@@ -6,20 +7,20 @@ American sign alphabet detector using Deep Learning & Computer Vision
 The Sign2Alphabet project aims to help people to interpret sign language alphabets so that they can easily communicate with people who cannot speak or listen. Computer Vision is used to detect the American sign language symbol for various alphabets and Convolutional Neural Network(CNN) model is used to predict the predict the detected sign and result is printed on the live video frame.  
 
 ## Steps to detect a sign:
->Creating Image Dataset:
+### Creating Image Dataset:
 * Image dataset can be created by running create_image_dataset.py file and a character viz 'a' should be entered to prepare image data folder for that character.
 * As soon as 'd' is pressed on the keyboard, webcam will start clicking 786 images.
 * Position or angles of sign can be changed for better training and results accuracy.
 
->Creating CSV file
+### Creating CSV file
 * Next step is to create a csv file for detected image dataset containing different folders for different alphabets.
 * Every image will be read by create_csv.py program and will be resized to 28x28 to save 784 corresponding pixels in a row of excell file.
 
->Training CNN model and Predicting Signs
+### Training CNN model and Predicting Signs
 * Then csv file is read and, CNN model is created and trained by predict_sign.py and the training process will take time.
 * When the webcam will pop up on the screen, different sign can be shown to the camera and the result of prediction will be displayed on the live feed frame.
 
->Results
+## Results
 * CNN model achieved 98.78% accuracy and results clippings have been mentioned below.
 
 ![](result1.gif)
